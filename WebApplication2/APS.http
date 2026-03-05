@@ -1,0 +1,6 @@
+@APS_HostAddress = http://localhost:5052
+
+GET {{APS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
