@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My APS BIM Viewer</title>
+    <meta charset="utf-8" />
+    <!-- REMOVED the Content-Security-Policy meta tag - it blocks viewer scripts -->
+    <link rel="stylesheet" href="https://developer.api.autodesk.com/modelderivative/v2/viewers/7.*/style.min.css" type="text/css">
+    <script src="https://developer.api.autodesk.com/modelderivative/v2/viewers/7.*/viewer3D.min.js"></script>
+    <style>
+        body { margin: 0; }
+        #apsViewer { width: 100vw; height: 100vh; position: relative; }
+    </style>
+</head>
+<body>
+    <div id="apsViewer"></div>
+    <script src="viewer-logic.js"></script>
+</body>
+</html>
